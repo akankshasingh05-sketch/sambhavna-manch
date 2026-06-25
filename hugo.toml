@@ -1,0 +1,31 @@
+baseURL = "http://localhost:1313/"
+title = "Sambhavna Manch"
+theme = "PaperMod"
+defaultContentLanguage = "hi"
+
+[languages]
+
+[languages.hi]
+languageName = "हिन्दी"
+weight = 1
+languageCode = "hi-IN"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 3
+[params]
+ShowReadingTime = true
+ShowShareButtons = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
